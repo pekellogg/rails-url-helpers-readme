@@ -1,0 +1,11 @@
+<!-- before refactor -->
+<!--<% @posts.each do |post| %>
+  <div><a href='<%= "/posts/#{post.id}" %>'><%= post.title %></a></div>
+<% end %>-->
+
+
+<!-- after refactor using link_to and post_path() -->
+<!-- rails knows to use post.id in post_path params -->
+<% @posts.each do |post| %>
+  <div><%= link_to post.title, post_path(post) %></div>
+<% end %>
