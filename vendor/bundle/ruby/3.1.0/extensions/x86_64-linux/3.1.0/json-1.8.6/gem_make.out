@@ -1,0 +1,14 @@
+current directory: /home/pekellogg/code/labs/rails-url-helpers-readme/vendor/bundle/ruby/3.1.0/gems/json-1.8.6/ext/json
+/usr/bin/ruby -I /usr/share/rubygems -r ./siteconf20220629-33683-k16wr9.rb extconf.rb
+creating Makefile
+
+current directory: /home/pekellogg/code/labs/rails-url-helpers-readme/vendor/bundle/ruby/3.1.0/gems/json-1.8.6/ext/json
+make DESTDIR\= clean
+rm -fr false *.o  *.bak mkmf.log .*.time
+
+current directory: /home/pekellogg/code/labs/rails-url-helpers-readme/vendor/bundle/ruby/3.1.0/gems/json-1.8.6/ext/json
+make DESTDIR\=
+make: Nothing to be done for 'all'.
+
+current directory: /home/pekellogg/code/labs/rails-url-helpers-readme/vendor/bundle/ruby/3.1.0/gems/json-1.8.6/ext/json
+make DESTDIR\= install
